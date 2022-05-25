@@ -1,0 +1,33 @@
+root@ip-10-160-10-189:/usr/local/openvpn_as/scripts# ./sacli -k "vpn.server.daemon.protocols" -v "both" configPut
+[True, {}]
+root@ip-10-160-10-189:/usr/local/openvpn_as/scripts# ./sacli start
+RunStart warm None
+{
+  "active_profile": "Default",
+  "errors": {},
+  "last_restarted": "Wed May 25 07:53:14 2022",
+  "service_status": {
+    "api": "on",
+    "auth": "on",
+    "bridge": "on",
+    "client_query": "on",
+    "crl": "on",
+    "daemon_pre": "on",
+    "db_push": "on",
+    "ip6tables_live": "on",
+    "ip6tables_openvpn": "on",
+    "iptables_live": "on",
+    "iptables_openvpn": "on",
+    "iptables_web": "on",
+    "log": "on",
+    "openvpn_0": "on",
+    "openvpn_1": "on",
+    "openvpn_2": "on",
+    "openvpn_3": "on",
+    "subscription": "on",
+    "user": "on",
+    "web": "on"
+  }
+}
+WILL_RESTART []
+root@ip-10-160-10-189:/usr/local/openvpn_as/scripts#
